@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+.container {
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+}
+.row1 {
+    background-color: black;
+}
+.row2 {
+    background-color: rgb(224, 228, 22);
+}
+.row3 {
+    background-color: darkmagenta;
+}
+.row4 {
+    background-color: darkslategray;
+}
+.row5 {
+    background-color: deeppink;
+}
+.row6 {
+    background-color: rgb(248, 17, 17);
+}
+/*.row:before, .row:after {
+content: "";
+display: table;
+clear: both;
+}*/
+[class*="col-"]{
+    /*float: left;*/
+    min-height: 7px;
+    padding: 12px;
+}
+.col-1{
+    background-color: aqua;
+    /*width: 8.33333333%;*/
+}
+.col-2{
+    background-color: blue;
+    /*width: 16.666667%;*/
+}
+.col-3{
+    background-color: blueviolet;
+    /*width: 25%;*/
+}
+.col-4{
+    background-color: brown;
+    /*width: 33.333333%;*/
+}
+.col-5{
+    background-color: chartreuse;
+    /*width: 41.666667%;*/
+}
+.col-6{
+    background-color: coral;
+    /*width: 50%;*/
+}
+.col-7{
+    background-color: cornflowerblue;
+    /*width: 58.666666%;*/
+}
+.col-8{
+    background-color: crimson;
+    /*width: 66.666667%;*/
+}
+.col-9{
+    background-color: cyan;
+    /*width: 75%;*/
+}
+.col-10{
+    background-color: green;
+    /*width: 83.333333%;*/
+}
+.col-11{
+    background-color: darkred;
+    /*width: 91.666667%;*/
+}
+.col-12{
+    background-color: darkorchid;
+    /*width: 100%;*/
+}
+
+/*@media all and (max-width450px){
+    [class*="col-"]{
+        width: 100%;
+    }
+}
